@@ -1,0 +1,114 @@
+[
+    {
+        "return_type": "java.lang.Void",
+        "parameter_types": "[java.lang.Object,ARRAY:1:java.lang.String]",
+        "method_name": "write",
+        "is_static": false,
+        "declaring_class": "org.supercsv.io.CsvBeanWriter"
+    },
+    {
+        "return_type": "java.lang.Void",
+        "parameter_types": "[java.lang.Object,ARRAY:1:java.lang.String]",
+        "method_name": "write",
+        "is_static": false,
+        "declaring_class": "org.supercsv.io.ICsvBeanWriter"
+    },
+    {
+        "return_type": "java.lang.Void",
+        "parameter_types": "[java.lang.Object]",
+        "method_name": "print",
+        "is_static": false,
+        "declaring_class": "org.apache.commons.csv.CSVPrinter"
+    },
+    {
+        "return_type": "java.lang.Void",
+        "parameter_types": "[java.lang.Iterable]",
+        "method_name": "printRecord",
+        "is_static": false,
+        "declaring_class": "org.apache.commons.csv.CSVPrinter"
+    },
+    {
+        "return_type": "java.lang.Void",
+        "parameter_types": "[ARRAY:1:java.lang.Object]",
+        "method_name": "printRecord",
+        "is_static": false,
+        "declaring_class": "org.apache.commons.csv.CSVPrinter"
+    },
+    {
+        "return_type": "java.lang.Void",
+        "parameter_types": "[java.util.stream.Stream]",
+        "method_name": "printRecord",
+        "is_static": false,
+        "declaring_class": "org.apache.commons.csv.CSVPrinter"
+    },
+    {
+        "return_type": "java.lang.Void",
+        "parameter_types": "[java.lang.Iterable]",
+        "method_name": "printRecords",
+        "is_static": false,
+        "declaring_class": "org.apache.commons.csv.CSVPrinter"
+    },
+    {
+        "return_type": "java.lang.Void",
+        "parameter_types": "[ARRAY:1:java.lang.Object]",
+        "method_name": "printRecords",
+        "is_static": false,
+        "declaring_class": "org.apache.commons.csv.CSVPrinter"
+    },
+    {
+        "return_type": "java.lang.Void",
+        "parameter_types": "[java.sql.ResultSet]",
+        "method_name": "printRecords",
+        "is_static": false,
+        "declaring_class": "org.apache.commons.csv.CSVPrinter"
+    },
+    {
+        "return_type": "java.lang.Void",
+        "parameter_types": "[java.sql.ResultSet,java.lang.Boolean]",
+        "method_name": "printRecords",
+        "is_static": false,
+        "declaring_class": "org.apache.commons.csv.CSVPrinter"
+    },
+    {
+        "return_type": "java.lang.Void",
+        "parameter_types": "[java.util.stream.Stream]",
+        "method_name": "printRecords",
+        "is_static": false,
+        "declaring_class": "org.apache.commons.csv.CSVPrinter"
+    }
+    ,{
+        "return_type": "java.lang.StringBuilder",
+        "parameter_types": "[com.example.employee.model.dto.EmployeeBean]",
+        "method_name": "exportColumnsValue",
+        "is_static": false,
+        "declaring_class": "com.example.employee.service.EmployeeService"
+    }
+    ,{
+        "return_type": "org.json.JSONArray",
+        "parameter_types": "[org.json.JSONArray]",
+        "method_name": "toJSONArray",
+        "is_static": false,
+        "declaring_class": "org.json.JSONObject"
+    }
+    ,{
+        "return_type": "java.lang.String",
+        "parameter_types": "[org.json.JSONArray]",
+        "method_name": "rowToString",
+        "is_static": true,
+        "declaring_class": "org.cenoteando.utils.CsvImportExport"
+    }
+    ,{
+        "return_type": "java.lang.String",
+        "parameter_types": "[org.json.JSONArray]",
+        "method_name": "rowToString",
+        "is_static": true,
+        "declaring_class": "org.json.CDL"
+    }
+    ,{
+        "return_type": "java.lang.Void",
+        "parameter_types": "[java.lang.String]",
+        "method_name": "println",
+        "is_static": false,
+        "declaring_class": "java.io.PrintWriter"
+    }
+]
