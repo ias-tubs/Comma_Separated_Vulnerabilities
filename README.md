@@ -1,6 +1,7 @@
 # Artifact evaluation for the paper "Comma Separated Vulnerabilities: Detecting Formula Injection in the Wild"
 
-This repository contains source code and data to help reproduce the evaluation results of the paper.
+This repository contains source code and data to help reproduce the evaluation results of the paper [*Comma Separated Vulnerabilities: Detecting Formula Injection in the Wild*](https://www.ias.cs.tu-bs.de/publications/comma_separated_vulnerabilities.pdf) by [Manuel Karl](https://www.tu-braunschweig.de/en/ias/staff/manuel-karl), Louis Bettels, [Martin Johns](https://www.tu-braunschweig.de/en/ias/staff/martin-johns), and [David Klein](https://www.tu-braunschweig.de/en/ias/staff/david-klein)
+
 This document explains the format and instructions to execute the evaluation.
 
 
@@ -46,3 +47,15 @@ These are the unpacked builds of the respective applications.
 3. applications/shopme - [Original](https://github.com/Rapter1990/Shopme)
     - This application is divided into two parts, frontend and backend, and best demonstrates the two-phase analysis process. In the first case, the frontend is analyzed in order to find a flow of user-controlled data into the DB. Subsequently, the backend application (at the second start of the analysis) is analyzed to find flows from the database into a sink that writes CSVs. 
 4. applications/yurets1-telegram - [Original](https://github.com/yurets1/telegram)
+
+## Cite Us!
+If you find this repository useful or are using any of it for your research, please cite us.
+
+```bib
+@inproceedings{KarBetJohKle25,
+  author        = {Manuel Karl AND Louis Bettels AND Martin Johns AND David Klein},
+  title         = {{Comma Separated Vulnerabilities: Detecting Formula Injection in the Wild}},
+  booktitle     = {WOOT Conference on Offensive Technologies},
+  year          = 2025,
+}
+```
